@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--meta obligatoire de bootstrap-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <!--Utilisation via CDN-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+   <!--<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">-->
+
+    <!--mon propre css (toujours en dernier)-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Intro Boostrap</title>
+</head>
+<body>
+
+<!--HEADER-->
+
+<header>
+    <div class="row">
+        <img class="col-sm-2" src="assets/img/logo.png" alt="logo">
+        <div class="input-group col">
+            <div class="row">
+                <select class="select col" data-mdb-filter="true">
+                    <option value="1">All Category</option>
+                    <option value="2">winter</option>
+                </select>
+                <div class="form-outline col-sm-7">
+                    <input type="search" id="form1" class="form-control" placeholder="Search products here..." />
+                </div>
+                <button type="button" class="btn col-sm">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+
+
+
+
+        </div>
+        <i class="bi bi-heart col-sm-2"></i>
+        <i class="bi bi-person-fill col-sm-2"></i>
+        <i class="bi bi-box2 col-sm-2"></i>
+    </div>
+
+
+</header>
+
+<!--MAIN-->
+
+<main>
+    <div class="container-fluid">
+        <!--NAV BAR-->
+            <nav class="container-fluid">
+              <ul class="row">
+                <li class="col-sm-1 py-3 text-white  bg-warning text-center"><a href="#">Home</a></li>
+                <li class="col-sm-1 py-3  text-white  bg-dark text-center"><a href="#">Product</a></li>
+                <li class="col-sm-1 py-3 text-white  bg-dark text-center"><a href="#">Service</a></li>
+                <li class="col-sm-1 py-3 text-white  bg-dark text-center"><a href="#">Shop</a></li>
+                <li class="col-sm-1 py-3 text-white  bg-dark text-center"><a href="#">Pages</a></li>
+                <li class="col-sm-1 py-3 text-white  bg-dark text-center"><a href="#">Blog</a></li>
+                <li class="col-sm-6 py-3 text-white  bg-dark text-sm-start"><a href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+
+        <!--CAROUSEL -->
+        <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <img src="assets/img/anna-laboda-bh2FphERL-U-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Make Your Site Stunning With Large Title </h1>
+                            <p>Hipster style is a fashion trending for Gentleman and Lady with tattoos. You'll become so cool and attractive with your's girl.<br>Now let come hare and grab it now</p>
+                            <p><a class="btn btn-lg btn-secondary" href="#" role="button"><i class="icon-truck"></i>SHOP NOW</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img src="assets/img/anna-laboda-bh2FphERL-U-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Make Your Site Stunning With Large Title </h1>
+                            <p>Hipster style is a fashion trending for Gentleman and Lady with tattoos. You'll become so cool and attractive with your's girl.<br>Now let come hare and grab it now</p>
+                            <p><a class="btn btn-lg btn-secondary" href="#" role="button"><i class="icon-truck"></i>SHOP NOW</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img src="assets/img/anna-laboda-bh2FphERL-U-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Make Your Site Stunning With Large Title </h1>
+                            <p>Hipster style is a fashion trending for Gentleman and Lady with tattoos. You'll become so cool and attractive with your's girl.<br>Now let come hare and grab it now</p>
+                            <p><a class="btn btn-lg btn-secondary" href="#" role="button"><i class="icon-truck"></i>SHOP NOW</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#Carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#Carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+
+        <!--GALLERY PRODUITS-->
+
+        <div class=" row">
+            <div class="col-sm-3">
+                <img src="assets/img/swim-siut.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Women Hot Collection</h5>
+                    <p>$ 29.00</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="assets/img/swim-siut.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Awesome Pink Show</h5>
+                    <p>$ 29.00</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="assets/img/swim-siut.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Awesome Bags Collection</h5>
+                    <p>$ 29.00</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <img src="assets/img/swim-siut.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Women pants collections</h5>
+                    <p>$ 29.00</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--icon info-->
+        <div class="row">
+            <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <i class="fa fa-rocket"></i>
+                        </div>
+                        <div class="col-sm-6">
+                        <h5>FREE SHIPPING</h5>
+                        <p>Guaranteed price</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-6" >
+                            <i class="fa fa-rotate-left"></i>
+                        </div>
+                        <div class="col-sm-6">
+                        <h5>FREE RETURN</h5>
+                        <p>Guaranteed price</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-6" >
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <div class="col-sm-6">
+                        <h5>SECURE PAYMENT</h5>
+                        <p>Guaranteed price</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-3">
+                    <div class="row">
+                        <div class="col-sm-6" >
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <div class="col-sm-6" >
+                        <h5>BEST PIECE</h5>
+                        <p>Guaranteed price</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<!--FOOTER-->
+
+<footer>
+    <div class="container-fluid mt-3" style="background-color:grey">
+        <div class="row">
+            <div class="col-sm-3" >
+                <div class="row" >
+                    <div class="col-sm-6">
+                        <h5>Company</h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-minus"></i>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#"><i class="bi bi-chevron-right"></i>About us</a></li>
+                    <li><a href="#"><i class="bi bi-chevron-right"></i>Contact us</a></li>
+                    <li><a href="#"><i class="bi bi-chevron-right"></i>Reservation</a></li>
+                    <li><a href="#"><i class="bi bi-chevron-right"></i>Privacy Policy</a></li>
+                    <li><a href="#"><i class="bi bi-chevron-right"></i>Terms & condition</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3" >
+                <div class="row" >
+                    <div class="col-sm-6">
+                        <h5>contact</h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-minus"></i>
+                </div>
+            </div>
+                <ul>
+                    <li><i class="bi bi-geo-alt-fill"></i></i>123 Street, New york, USA</li>
+                    <li><i class="bi bi-telephone-fill"></i></i>+012 345 67890</li>
+                    <li><i class="bi bi-envelope-fill"></i></i>info@example.com</li>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-youtube-play"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Opening</h5>
+                    </div>
+                    <div class="col-sm-6">
+                    <i class="fa fa-minus"></i>
+                    </div>
+                </div>
+                <h5>Monday-Saturday</h5>
+                <p>09AM - O9PM</p>
+                <h5>Sunday</h5>
+                <p>10AM - O8PM</p>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Newsletter</h5>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-minus"></i>
+                </div>
+            </div>
+                <h5>Dolor amet sit justo amet elitr clita ipsum elitr est.</h5>
+                <div class="container">
+                        <form action="" method="post" role="form" class="row">
+                            <input class=" col-sm-8" type="text" id="email" name="email" placeholder="Your email">
+
+                            <input type="submit" value="SIGNUP" class=" col-sm-4 btn  btn-warning" />
+                        </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+#header {
+
+  img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  background-color: #ffffff;
+  justify-content: space-between;
+  #searchbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    flex-content:center;
+
+    select {
+      width:200px;
+      text-decoration: none;
+    };
+    select:hover {
+      background-color:$color-secondary-orange;
+    };
+    button {
+      background-color:$color-secondary-black;
+      color:white;
+    };
+    button:hover {
+      background-color:$color-secondary-orange;
+      color:white;
+    }
+    input {
+      height: 50px
+    };
+  }
+}
+
+#heart, #person, #box {
+  margin-top: 15px;
+  flex-basis: 10%;
+  font-size: 1.3rem;
+}
+
+#heart:hover, #person:hover, #box:hover {
+  color:$color-secondary-orange;
+}

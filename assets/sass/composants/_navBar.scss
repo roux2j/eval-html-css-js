@@ -1,0 +1,16 @@
+nav {
+  background-color: $color-secondary-black;
+  flex-content:center;
+  margin-bottom:15px;
+  ul {
+    list-style-type: none;
+  };
+  .col-sm:hover{
+    background-color:$color-secondary-orange;
+  };
+  a, a:hover{
+    color: white;
+    text-decoration: none;
+  };
+
+}

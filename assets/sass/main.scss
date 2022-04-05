@@ -1,0 +1,13 @@
+@import "base/base";
+@import "base/typographie";
+@import "base/variable";
+@import "composants/header";
+@import "composants/footer";
+@import "composants/navBar";
+@import "composants/product";
+@import "composants/icon";
+@import "composants/carousel";
+
+main {
+  background-color:$color-bg-grey;
+}

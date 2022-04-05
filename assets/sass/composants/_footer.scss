@@ -1,0 +1,24 @@
+footer {
+  background-color: $color-bg-blue;
+  h5, .fa-minus{
+    color:$color-secondary-orange;
+  };
+  ul {
+    list-style-type: none;
+  };
+  p, li, a{
+    color: white;
+    text-decoration: none;
+  };
+  #navList{
+    i{
+      margin-right: 25px;
+    }
+  }
+  #listInfo{
+    i{
+      margin-right: 25px;
+    }
+  }
+
+}
